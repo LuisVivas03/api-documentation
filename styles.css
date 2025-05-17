@@ -45,6 +45,8 @@ header h1 {
     position: sticky;
     top: 2rem;
     height: fit-content;
+    max-height: 80vh; /* Altura máxima del 80% del viewport */
+    overflow-y: auto; /* Habilita el scroll vertical */
 }
 
 .sidebar h2 {
@@ -141,3 +143,4 @@ footer {
 #introduccion .api-image{
     border: 0cm;
 }
+    
