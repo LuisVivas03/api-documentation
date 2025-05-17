@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #4a6da7;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-right: 2rem;
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+}
+
+.sidebar h2 {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 0.8rem;
+}
+
+.sidebar a {
+    color: #4a6da7;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+    background-color: #f0f4f8;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.api-section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 2rem;
+}
+
+.api-section:last-child {
+    margin-bottom: 0;
+}
+
+.api-section h2 {
+    color: #4a6da7;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.api-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.api-image {
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin: 0 auto;
+}
+
+.api-description {
+    line-height: 1.7;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #4a6da7;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        position: static;
+    }
+}
+
+#introduccion .api-image{
+    border: 0cm;
+}
