@@ -255,16 +255,87 @@ class pacientes extends conexion{
     }
 }`,
     usage:
-      "PONER COMO SE USA",
+      "Se utiliza la herramienta Postman para realizar pruebas de la API. Para crear un nuevo paciente, modificar o eliminar se debe autenticar primero y luego enviar a la URL el token de autenticación en el cuerpo de la solicitud POST, PUT o DELETE.",
     examples: [
       {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
+        title: `GET-Obtener lista de pacientes<br>
+        /pacientes?page=1 → Lista paginada<br>
+        /pacientes?id=1   → Datos de un paciente<br>
+`,
+        code: `URL: http://localhost/pacientes?page=1`,
       },
       {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
+        title: "Respuesta esperada:",
+        code: `    {
+        "PacienteId": "1",
+        "Nombre": "Juan Carlos Medina",
+        "DNI": "A000000001",
+        "Telefono": "633281515",
+        "Correo": "Paciente1@gmail.com"
+    }`,
       },
+      {
+        title: `POST-Crear paciente<br>
+        Metodo: POST<br>
+        Body (raw/JSON):`,
+        code: `{
+  "token": "29e7351ed529a249c7641822dc00f258",
+  "dni": "11122233",
+  "nombre": "Carlos Gómez",
+  "correo": "carlos@example.com",
+  "telefono": "321654987"
+}`,
+      },
+      {
+        title: "Respuesta esperada:",
+        code: `{
+    "status": "ok",
+    "result": {
+        "pacienteId": 7
+    }
+}`,
+      },
+      {
+        title:`PUT-Actualizar paciente<br>
+        URL: http://localhost/pacientes<br>
+        Body (raw/JSON):`,
+        code: `{
+  "token": "29e7351ed529a249c7641822dc00f258",
+  "pacienteId": 5,
+  "nombre": "Carlos G. Actualizado",
+  "telefono": "123123123"
+}
+`
+      },
+      {
+        title: "Respuesta esperada:",
+        code: `{
+    "status": "ok",
+    "result": {
+        "pacienteId": 5
+    }
+}`
+      },
+      {
+        title: `DELETE-Eliminar paciente<br>
+        URL: http://localhost/pacientes<br>
+        Body (raw/JSON):`,
+        code: `{
+  "token": "29e7351ed529a249c7641822dc00f258",
+  "pacienteId": 5
+}`
+      },
+      {
+        title: "Respuesta esperada:",
+        code: `{
+    "status": "ok",
+    "result": {
+        "pacienteId": 5
+    }
+}`
+      }
+
+
     ],
   },
 }

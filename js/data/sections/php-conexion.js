@@ -90,15 +90,15 @@ Finalmente, se asegura que la comunicación entre PHP y la base de datos se real
     }
 }`,
     usage:
-      "PONER COMO SE USA",
+      "",
     examples: [
       {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
+        title: "",
+        code: ``,
       },
       {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
+        title: "",
+        code: ``,
       },
     ],
   },

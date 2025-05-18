@@ -5,7 +5,7 @@ export default {
   id: "php-config",
   title: "Config",
   description:
-    "Descripcion detallada",
+    "",
   hasDetailedPage: true,
   details: {
     overview:
