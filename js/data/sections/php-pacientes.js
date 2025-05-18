@@ -3,9 +3,8 @@
  */
 export default {
   id: "php-pacientes",
-  title: "Clase PHP: gestión de pacientes (pacientes.php)",
-  description:
-    "Descripcion detallada",
+  title: "Gestión de pacientes (pacientes.class.php)",
+  image: "./images/gestion.png",
   hasDetailedPage: true,
   details: {
     overview:

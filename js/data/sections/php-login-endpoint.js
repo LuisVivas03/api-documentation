@@ -3,9 +3,8 @@
  */
 export default {
   id: "php-login-endpoint",
-  title: "Endpoint PHP: login.php",
-  description:
-    "Descripcion detallada",
+  title: "Endpoint PHP (auth.php)",
+  image: "./images/endpoint.png",
   hasDetailedPage: true,
   details: {
     overview:
@@ -39,16 +38,8 @@ En caso de error (como credenciales inválidas, formato incorrecto o métodos HT
         echo json_encode($datosArray);
     }`,
     usage:
-      "PONER COMO SE USA",
+      "",
     examples: [
-      {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
-      },
-      {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
-      },
     ],
   },
 }

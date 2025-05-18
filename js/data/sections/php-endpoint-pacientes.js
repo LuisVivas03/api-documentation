@@ -4,8 +4,7 @@
 export default {
   id: "php-endpoint-pacientes",
   title: "Endpoint PHP: pacientes.php",
-  description:
-    "Descripcion detallada",
+  image: "./images/endpoint2.png",
   hasDetailedPage: true,
   details: {
     overview:

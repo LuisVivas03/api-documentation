@@ -144,6 +144,60 @@ footer {
   border: 0cm;
 }
 
+#php-config .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-htaccess .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-conexion .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-auth .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-pacientes .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-respuestas .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-login-endpoint .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-prueba-conexion .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
+#php-endpoint-pacientes .api-image {
+  max-width: 150px;
+  height: auto;
+  border: 0cm;
+}
+
 /* Estilos para las ventanas modales */
 .modal-overlay {
   position: fixed;

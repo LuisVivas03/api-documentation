@@ -3,9 +3,8 @@
  */
 export default {
   id: "php-auth",
-  title: "Clase PHP: autenticación (auth.php)",
-  description:
-    "Descripcion detallada",
+  title: "Autenticación (auth.class.php)",
+  image: "./images/autenticacion.png",
   hasDetailedPage: true,
   details: {
     overview:
