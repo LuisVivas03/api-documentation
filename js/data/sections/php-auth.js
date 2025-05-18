@@ -91,15 +91,25 @@ class auth extends conexion{
 
 }`,
     usage:
-      "PONER COMO SE USA",
+      "Este método solo acepta peticiones POST para el login, debe recibir credenciales JSON (usuario y contraseña), llama al método login() de la clase auth. Por ultimo devuelve un token o un error.",
     examples: [
       {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
+        title: `Prueba en Postman:<br>
+        URL: http://localhost/auth<br>
+        Cuerpo de la petición (raw/JSON):`,
+        code: `{
+  "usuario": "usuario1@gmail.com",
+  "password": "123456"
+}`,
       },
       {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
+        title: "Respuesta esperada",
+        code: `{
+    "status": "ok",
+    "result": {
+        "token": "29e7351ed529a249c7641822dc00f258"
+    }
+}`,
       },
     ],
   },
