@@ -15,18 +15,22 @@ import phpRespuestas from "./sections/php-respuestas.js"
 import phpLoginEndpoint from "./sections/php-login-endpoint.js"
 import phpPruebaConexion from "./sections/php-prueba-conexion.js"
 import phpEndpointPacientes from "./sections/php-endpoint-pacientes.js"
+import phpConfig from "./sections/php-config.js"
+import phpHtaccess from "./sections/php-htaccess.js"
 
 // Agrupar secciones
 const basicSections = [introduccion, sql]
 
 const detailedSections = [
+  phpConfig,
+  phpHtaccess,
   phpConexion,
   phpAuth,
   phpPacientes,
   phpRespuestas,
   phpLoginEndpoint,
   phpPruebaConexion,
-  phpEndpointPacientes,
+  phpEndpointPacientes
 ]
 
 // Exportar datos agrupados
