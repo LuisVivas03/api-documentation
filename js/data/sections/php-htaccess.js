@@ -4,7 +4,7 @@
 export default {
   id: "php-htaccess",
   title: "Htaccess",
-  image: "",
+  image: "./images/url.png",
   hasDetailedPage: true,
   details: {
     overview:

@@ -3,9 +3,8 @@
  */
 export default {
   id: "php-respuestas",
-  title: "Clase PHP: manejo de respuestas (respuestas.class.php)",
-  description:
-    "Descripcion detallada",
+  title: "Manejo de respuestas (respuestas.class.php)",
+  image: "./images/respuesta.png",
   hasDetailedPage: true,
   details: {
     overview:
@@ -83,16 +82,8 @@ El uso de esta clase dentro de los controladores asegura que todas las respuesta
 
 }`,
     usage:
-      "PONER COMO SE USA",
+      "",
     examples: [
-      {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
-      },
-      {
-        title: "EJEMPLO",
-        code: `PONER CODIGO`,
-      },
     ],
   },
 }

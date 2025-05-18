@@ -3,9 +3,8 @@
  */
 export default {
   id: "php-conexion",
-  title: "Clase PHP: conexión a base de datos",
-  description:
-    "Descripcion detallada",
+  title: "Conexión a base de datos (conexion.php)",
+  image: "./images/conexion.png",
   hasDetailedPage: true,
   details: {
     overview:
@@ -92,14 +91,6 @@ Finalmente, se asegura que la comunicación entre PHP y la base de datos se real
     usage:
       "",
     examples: [
-      {
-        title: "",
-        code: ``,
-      },
-      {
-        title: "",
-        code: ``,
-      },
     ],
   },
 }
